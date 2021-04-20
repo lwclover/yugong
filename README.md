@@ -1,6 +1,6 @@
 ## 背景
 
-08年左右，阿里巴巴开始尝试MySQL的相关研究，并开发了基于MySQL分库分表技术的相关产品，Cobar/TDDL(目前为阿里云DRDS产品)，解决了单机Oracle无法满足的扩展性问题，当时也掀起一股去IOE项目的浪潮，愚公这项目因此而诞生，其要解决的目标就是帮助用户完成从Oracle数据迁移到MySQL上，完成去IOE的第一步. 
+2008年，阿里巴巴开始尝试使用 MySQL 支撑其业务，开发了围绕 MySQL 相关的中间件和工具，Cobar/TDDL(目前为阿里云DRDS产品)，解决了单机 Oracle 无法满足的扩展性问题，当时也掀起一股去IOE项目的浪潮，愚公这项目因此而诞生，其要解决的目标就是帮助用户完成从 Oracle 数据迁移到 MySQL 上，完成去 IOE 的重要一步工作。
 
 ## 项目介绍
 
@@ -44,25 +44,20 @@ height="206"}
     b.  translator  (将源库上的数据按照目标库的需求进行自定义转化)
     c.  applier  (将数据更新到目标库，可分为全量/增量/对比的实现)
 
-## DevDesign
+## 方案设计
 
-
-See the page for dev design:
 [DevDesign](https://github.com/alibaba/yugong/wiki/DevDesign)
 
-## QuickStart
+## 快速开始
 
-See the page for quick start:
 [QuickStart](https://github.com/alibaba/yugong/wiki/QuickStart)
 
-## AdminGuide
+## 运维管理
 
-See the page for admin deploy guide:
 [AdminGuide](https://github.com/alibaba/yugong/wiki/AdminGuide)
 
-## Performance
+## 性能报告
 
-See the page for yugong performance :
 [Performance](https://github.com/alibaba/yugong/wiki/Performance)
 
 ## 相关资料
@@ -71,10 +66,7 @@ See the page for yugong performance :
 2.  [分布式关系型数据库服务DRDS](https://www.aliyun.com/product/drds)
     (前身为阿里巴巴公司的Cobar/TDDL的演进版本, 基本原理为MySQL分库分表)
 
-## 问题反馈
+## 沟通与交流
 
-1.  qq交流群： 537157866
-2.  邮件交流： jianghang115@gmail.com, zylicfc@gmail.com
-3.  新浪微博： agapple0002
-4.  报告issue：[issues](https://github.com/alibaba/yugong/issues)
+1. 详见 wiki home 页
 
